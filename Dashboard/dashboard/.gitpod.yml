@@ -1,0 +1,7 @@
+# .gitpod.yml
+
+tasks:
+  - init: |
+      npm install
+      npm install axios
+    command: npm start
